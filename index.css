@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+*:focus {
+    outline: none;
+    border: none;
+}
+*{
+    outline: none;
+    border: none;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    background: #020926;
+}
+
+/* Fontes */
+.calibri-bold{
+    font-family: calibri,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.calibri-bold-italic{
+    font-family: calibri,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.calibri-italic{
+    font-family: calibri,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.calibri-light{
+    font-family: calibri,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.calibri-light-italic{
+    font-family: calibri,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.calibri-regular{
+    font-family: calibri,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Lora */
+.lora-italic{
+    font-family: lora,serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.lora-bold-italic{
+    font-family: lora,serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.lora-bold{
+    font-family: lora,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.lora-regular{
+    font-family: lora,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Montserrat */
+.montserrat-semi-bold{
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.montserrat-regular{
+    font-family: montserrat,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.get-to-know-us{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gtku-bloco{
+    position: relative;
+    margin: 5vh;
+    width: 40vw;
+    height: auto;
+    background: #f1f1f1;
+    border-radius: 1vh;
+    text-align: left;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.23);
+}
+.gtku-foto{
+    position: relative;
+    width: 40vw;
+    height: 50vh;
+    background-size: cover;
+    border-radius: 1vh 1vh 0 0;
+}
+.gtku-bloco h1{
+    position: relative;
+    font-size: 4vh;
+    color: #003dd9;
+}
+.gtku-bloco h2{
+    position: relative;
+    font-size: 3vh;
+    color: #195BFF;
+}
+.gtku-bloco p{
+    position: relative;
+    font-size: 2vh;
+    color: #020926;
+    margin-top: 3vh;
+}
+.gtku-conteudo{
+    padding: 5vh;
+    padding-top: 2vh;
+}
+.gtku-contact{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gtku-linkedin{
+    position: relative;
+    background: #195BFF;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+}
+
+.gtku-linkedin i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+    font-size: 2vh;
+}
+
+.gtku-email{
+    position: relative;
+    background: #020926;
+    width: auto;
+    height: 5vh;
+    border-radius: 5vh;
+    margin-left: 2.5vh;
+    display: flex;
+}
+.gtku-email-icon{
+    position: relative;
+    background: #195BFF;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+}
+.gtku-email i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #f1f1f1;
+    font-size: 2vh;
+}
+
+.gtku-email-endereco{
+    position: relative;
+    height: 5vh;
+    padding: 2vh;
+    padding-left: 0.5vw;
+}
+.gtku-email-endereco p{
+    color: #f1f1f1;
+    position: relative;
+    bottom: 3.5vh;
+    font-size: 1.5vh;
+}
+
+
+/*     position: relative;
+    background: #195BFF;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    margin-left: 2.5vh;
+    z-index: 10; */
